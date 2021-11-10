@@ -41,6 +41,8 @@ class FragmentA : Fragment() {
         }
     }
     // 프레그먼트는 별도의 context를 가지지 않기 때문에 requireActivity() 사용
+    // 프레그먼트
+
     fun startProcess(){
         Toast.makeText(requireActivity(),"카메라를 실행합니다", Toast.LENGTH_LONG).show()
     }
