@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "476257753647",
+    "project_id": "test-83145",
+    "storage_bucket": "test-83145.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:476257753647:android:a9b1b5d30c4371bbd044da",
+        "android_client_info": {
+          "package_name": "com.hany.firebaselog"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "476257753647-llhabpf12n85nvaj3lcijaup2mtt29ri.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.hany.firebaselog",
+            "certificate_hash": "cabc233b4512035b70671ca523a966261e8460c0"
+          }
+        },
+        {
+          "client_id": "476257753647-ufi9ditkrlhsp4292q454vq1dir3m6ff.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBSN59qAEgYfYjxCD4plv0UeJUr7Cm48ss"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "476257753647-ufi9ditkrlhsp4292q454vq1dir3m6ff.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

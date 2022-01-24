@@ -17,13 +17,45 @@ import retrofit2.converter.gson.GsonConverterFactory
 
 class MainActivity : AppCompatActivity() {
     val binding by lazy { ActivityMainBinding.inflate(layoutInflater) }
+    override fun onStart() {
+
+        super.onStart()
+        Log.d("start","ds")
+    }
+
+    override fun onResume() {
+        super.onResume()
+        Log.d("resume","ds")
+    }
+
+    override fun onPause() {
+        super.onPause()
+        Log.d("pua","ds")
+    }
+
+    override fun onRestart() {
+        super.onRestart()
+        Log.d("restart","ds")
+    }
+
+    override fun onDestroy() {
+        super.onDestroy()
+        Log.d("destroy","ds")
+    }
+
+    override fun onStop() {
+        super.onStop()
+        Log.d("stop","ds")
+        onRetainNonConfigurationInstance()
+    }
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(binding.root)
 
+        Log.d("create","ds")
         binding.recyclerView.addItemDecoration(DividerItemDecoration(this, LinearLayoutManager.VERTICAL))
-// 구분선 생성
+        // 구분선 생
         binding.bSearch.setOnClickListener() {
             var keyword = binding.eSearchWord.text.toString()
             getSearchNews(keyword)
